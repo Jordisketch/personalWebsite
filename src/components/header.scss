@@ -1,0 +1,44 @@
+.header{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    .navegacion {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(71, 70, 56);
+    }
+
+    a{
+        text-decoration: none;
+        color: white ;
+        padding: 20px;
+    
+    
+    }
+  
+    @keyframes hover {
+        0% {
+            background-color: teal;
+        }
+        25% {
+            background-color: rgb(255, 199, 14);
+        }
+        50% {
+            background-color: slategrey;
+        }
+        100% {
+            background-color: sienna;
+        }
+     }
+
+     a:hover{
+        animation-name: hover;
+        animation-duration: 20s;
+
+     }
+
+  
+    
+}
+
+
